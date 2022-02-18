@@ -2,6 +2,7 @@ export class Car {
   constructor(private _speed2: number) {}
 
   public get speed2(): number {
+    console.log(this._speed2);
     return this._speed2;
   }
 
