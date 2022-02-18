@@ -1,11 +1,11 @@
 export class Car {
-  constructor(private _speed: number) {}
+  constructor(private _speed2: number) {}
 
-  public get speed(): number {
-    return this._speed;
+  public get speed2(): number {
+    return this._speed2;
   }
 
-  public set speed(speed: number) {
-    this._speed = speed;
+  public set speed2(speed2: number) {
+    this._speed2 = speed2;
   }
 }
